@@ -12,7 +12,7 @@
 		A1CDFBE325BC3CB90068E91C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1CDFBE125BC3CB90068E91C /* Main.storyboard */; };
 		A1CDFBE525BC3CBA0068E91C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1CDFBE425BC3CBA0068E91C /* Assets.xcassets */; };
 		A1CDFBE825BC3CBA0068E91C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1CDFBE625BC3CBA0068E91C /* LaunchScreen.storyboard */; };
-		A1CDFBF225BC3F800068E91C /* FaceR.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = A1CDFBF125BC3F800068E91C /* FaceR.rcproject */; };
+		A1FB6A2A25BC438C0071F2CC /* FaceR.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = A1FB6A2C25BC438C0071F2CC /* FaceR.rcproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		A1CDFBE425BC3CBA0068E91C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1CDFBE725BC3CBA0068E91C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1CDFBE925BC3CBA0068E91C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1CDFBF125BC3F800068E91C /* FaceR.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = FaceR.rcproject; sourceTree = "<group>"; };
+		A1FB6A2B25BC438C0071F2CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = en; path = en.lproj/FaceR.rcproject; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				A1CDFBDB25BC3CB90068E91C /* AppDelegate.swift */,
 				A1CDFBDD25BC3CB90068E91C /* ViewController.swift */,
-				A1CDFBF125BC3F800068E91C /* FaceR.rcproject */,
+				A1FB6A2C25BC438C0071F2CC /* FaceR.rcproject */,
 				A1CDFBE125BC3CB90068E91C /* Main.storyboard */,
 				A1CDFBE425BC3CBA0068E91C /* Assets.xcassets */,
 				A1CDFBE625BC3CBA0068E91C /* LaunchScreen.storyboard */,
@@ -139,7 +139,7 @@
 			files = (
 				A1CDFBDE25BC3CB90068E91C /* ViewController.swift in Sources */,
 				A1CDFBDC25BC3CB90068E91C /* AppDelegate.swift in Sources */,
-				A1CDFBF225BC3F800068E91C /* FaceR.rcproject in Sources */,
+				A1FB6A2A25BC438C0071F2CC /* FaceR.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +160,14 @@
 				A1CDFBE725BC3CBA0068E91C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A1FB6A2C25BC438C0071F2CC /* FaceR.rcproject */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1FB6A2B25BC438C0071F2CC /* en */,
+			);
+			name = FaceR.rcproject;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
