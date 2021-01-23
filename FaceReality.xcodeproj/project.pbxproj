@@ -13,6 +13,8 @@
 		A1CDFBE525BC3CBA0068E91C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1CDFBE425BC3CBA0068E91C /* Assets.xcassets */; };
 		A1CDFBE825BC3CBA0068E91C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1CDFBE625BC3CBA0068E91C /* LaunchScreen.storyboard */; };
 		A1FB6A2A25BC438C0071F2CC /* FaceR.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = A1FB6A2C25BC438C0071F2CC /* FaceR.rcproject */; };
+		A1FB6A3425BC5C950071F2CC /* Basket.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = A1FB6A3325BC5C950071F2CC /* Basket.rcproject */; };
+		A1FB6A3825BC5F370071F2CC /* Ball.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = A1FB6A3725BC5F370071F2CC /* Ball.rcproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A1CDFBE725BC3CBA0068E91C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1CDFBE925BC3CBA0068E91C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1FB6A2B25BC438C0071F2CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = en; path = en.lproj/FaceR.rcproject; sourceTree = "<group>"; };
+		A1FB6A3325BC5C950071F2CC /* Basket.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Basket.rcproject; sourceTree = "<group>"; };
+		A1FB6A3725BC5F370071F2CC /* Ball.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Ball.rcproject; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				A1CDFBDB25BC3CB90068E91C /* AppDelegate.swift */,
 				A1CDFBDD25BC3CB90068E91C /* ViewController.swift */,
 				A1FB6A2C25BC438C0071F2CC /* FaceR.rcproject */,
+				A1FB6A3325BC5C950071F2CC /* Basket.rcproject */,
+				A1FB6A3725BC5F370071F2CC /* Ball.rcproject */,
 				A1CDFBE125BC3CB90068E91C /* Main.storyboard */,
 				A1CDFBE425BC3CBA0068E91C /* Assets.xcassets */,
 				A1CDFBE625BC3CBA0068E91C /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1FB6A3825BC5F370071F2CC /* Ball.rcproject in Sources */,
+				A1FB6A3425BC5C950071F2CC /* Basket.rcproject in Sources */,
 				A1CDFBDE25BC3CB90068E91C /* ViewController.swift in Sources */,
 				A1CDFBDC25BC3CB90068E91C /* AppDelegate.swift in Sources */,
 				A1FB6A2A25BC438C0071F2CC /* FaceR.rcproject in Sources */,
