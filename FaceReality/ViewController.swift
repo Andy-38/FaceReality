@@ -15,10 +15,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Load the "Box" scene from the "Experience" Reality File
-        let boxAnchor = try! Experience.loadBox()
+        // загружаем из 3d-файла FaceReal объект
+        let faceAnchor = try! FaceR.loadСцена()
         
-        // Add the box anchor to the scene
-        arView.scene.anchors.append(boxAnchor)
+        
+        // загружаем объект на сцеун
+        arView.scene.anchors.append(faceAnchor)
     }
 }
